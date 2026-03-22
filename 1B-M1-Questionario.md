@@ -7,7 +7,24 @@
 - Sofia Franzini
 ---
 # Exercício 1
----
+
+## O que é um algoritmo?
+- Um algoritmo é uma sequência de passos organizados que seguimos para resolver um problema ou realizar uma tarefa.
+É como uma “receita” que diz exatamente o que fazer, em qual ordem, para chegar a um resultado.
+## Relação entre lógica de programação e algoritmos
+- A lógica de programação é o raciocínio usado para organizar ideias e encontrar a melhor forma de resolver um problema.
+Ela envolve pensar de maneira clara, ordenada e sem erros.
+O algoritmo é a transformação desse raciocínio em uma sequência de passos claros e ordenados para chegar à solução.
+Ou seja, é a forma de colocar a lógica em prática.
+## Exemplo de algoritmo do cotidiano
+- Carregar o celular:  
+1.Pegar o carregador
+2.Conectar o cabo ao carregador
+3.Ligar na tomada
+4.Conectar ao celular
+5.Aguardar carregar
+6.Desconectar quando estiver completo
+- É algoritmo porque apresenta uma sequência de passos organizados para atingir um objetivo, que é carregar o celular.
 # Exercício 2
 ---
 # Exercício 3
