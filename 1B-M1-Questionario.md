@@ -37,13 +37,13 @@ Exibir o maior valor na tela.
 
 ## Representar esse algoritmo em Portugol.
 
-programa {
-  funcao inicio() {
+    programa {
+      funcao inicio() {
 
-  inteiro a
-  inteiro b
-  inteiro c
-  inteiro maior
+      inteiro a
+      inteiro b
+      inteiro c
+      inteiro maior
    
       escreva("Digite o primeiro número: ")
       leia(a) 
@@ -61,7 +61,7 @@ programa {
 
           maior=b
         
-        se 
+      se 
         (c>maior) 
         
           maior=c
@@ -71,6 +71,7 @@ programa {
     }
   }
 }
+
 ---
 # Exercício 3
 
