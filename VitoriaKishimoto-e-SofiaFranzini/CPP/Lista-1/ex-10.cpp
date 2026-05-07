@@ -1,3 +1,12 @@
+/*
+   Data: 07/05/2026
+   Autores: Sofia Franzini e Vitória Kishimoto
+   Finalidade: Simular um jogo de adivinhação. O programa gera um número
+   aleatório e o jogador precisa acertá-lo. A cada tentativa, o programa
+   informa se o palpite é muito alto, muito baixo ou correto. Quando acertar,
+   exibe a quantidade de palpites.
+*/
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -5,27 +14,37 @@
 using namespace std;
 
 int main() {
+
+    int palpites = 0;
+    int numAleatorio, palpite;
+
     srand(time(0));
 
-    int numeroSecreto = rand() % 100 + 1;
-    int palpite;
-    int tentativas = 0;
+    numAleatorio = rand() % 1000 + 1;
 
     do {
-        cin >> palpite;
-        tentativas++;
 
-        if (palpite > numeroSecreto) {
-            cout << "Muito alto!" << endl;
-        } else if (palpite < numeroSecreto) {
-            cout << "Muito baixo!" << endl;
+        cout << "De um palpite: ";
+        cin >> palpite;
+
+        palpites++;
+
+        if (palpite > numAleatorio) {
+
+            cout << "Muito alto!\n";
+
+        } else if (palpite < numAleatorio) {
+
+            cout << "Muito baixo!\n";
+
         } else {
-            cout << "Correto!" << endl;
+
+            cout << "Acertou!\n";
         }
 
-    } while (palpite != numeroSecreto);
+    } while (palpite != numAleatorio);
 
-    cout << "Quantidade de palpites: " << tentativas << endl;
+    cout << "Quantidade de palpites: " << palpites << "\n";
 
     return 0;
 }
