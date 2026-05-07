@@ -1,23 +1,31 @@
+/* 
+Data: 07/05/2026
+Autores: Sofia Franzini e Vitoria Kishimoto
+Descrição: Ler um número. Exiba a soma de todos os números pares e ímpares de zero até o número lido. 
+O programa deve percorrer os números de 0 até o valor informado e separar a soma em dois grupos:
+soma dos pares; soma dos ímpares.
+*/
+
 #include <iostream>
+
 using namespace std;
-
-int main() {
-    int numero;
-    int somaPares = 0;
-    int somaImpares = 0;
-
-    cin >> numero;
-
-    for (int i = 0; i <= numero; i++) {
-        if (i % 2 == 0) {
-            somaPares += i;
-        } else {
-            somaImpares += i;
-        }
-    }
-
-    cout << "Soma dos pares: " << somaPares << endl;
-    cout << "Soma dos impares: " << somaImpares << endl;
-
-    return 0;
+	
+int main(){
+	
+	int numero, Par, Impar;
+	
+	cout << "Digite um número: ";
+	cin >> numero;
+	
+	for (int i=0; i<= numero; i++) {
+		if(i%2==0)
+			Par+=i;
+			 else 
+				Impar+=i;
+			}
+	
+cout << "Soma dos pares: " << Par << "\n\n";
+cout << "Soma dos impares: " << Impar << "\n\n";
+	
+	return 0;
 }
