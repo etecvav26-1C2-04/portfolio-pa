@@ -5,33 +5,30 @@ Descrição: Ler um número entre 50 e 100. Exibir a sequência de Fibonacci at�
 */
 
 #include <iostream>
+
 using namespace std;
 
 int main() {
-
     int limite;
 
+    cout << "Digite um número entre 50 e 100: ";
     cin >> limite;
 
     if (limite < 50 || limite > 100) {
-        cout << "Numero invalido!" << endl;
-        return 0;
-    }
+        cout << "Número inválido!" << "\n\n";
+    } else {
+        int numeroA = 0;
+        int numeroB = 1;
 
-    int numeroA = 0;
-    int numeroB = 1;
-    int proximo;
+        cout << "Sequência de Fibonacci:" << "\n\n";
 
-    cout << numeroA << " " << numeroB << " ";
+        while (numeroA <= limite) {
+            cout << numeroA << " ";
 
-    proximo = numeroA + numeroB;
-
-    while (proximo <= limite) {
-        cout << proximo << " ";
-
-        numeroA = numeroB;
-        numeroB = proximo;
-        proximo = numeroA + numeroB;
+            int proximo = a + b;
+            numeroA = numeroB;
+            numeroB = proximo;
+        }
     }
 
     return 0;
