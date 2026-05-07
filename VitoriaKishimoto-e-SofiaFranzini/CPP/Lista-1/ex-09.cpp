@@ -1,30 +1,34 @@
+/*
+Data: 07/05/2026
+Autores: Sofia Franzini e Vitória Kishimoto
+Descrição: Ler um número entre 50 e 100. Exibir a sequência de Fibonacci até esse número.
+*/
+
 #include <iostream>
+
 using namespace std;
 
 int main() {
     int limite;
 
+    cout << "Digite um número entre 50 e 100: ";
     cin >> limite;
 
     if (limite < 50 || limite > 100) {
-        cout << "Numero invalido!" << endl;
-        return 0;
-    }
+        cout << "Número inválido!" << "\n\n";
+    } else {
+        int numeroA = 0;
+        int numeroB = 1;
 
-    int a = 0;
-    int b = 1;
-    int proximo;
+        cout << "Sequência de Fibonacci:" << "\n\n";
 
-    cout << a << " " << b << " ";
+        while (numeroA <= limite) {
+            cout << numeroA << " ";
 
-    proximo = a + b;
-
-    while (proximo <= limite) {
-        cout << proximo << " ";
-
-        a = b;
-        b = proximo;
-        proximo = a + b;
+            int proximo = a + b;
+            numeroA = numeroB;
+            numeroB = proximo;
+        }
     }
 
     return 0;
