@@ -1,3 +1,11 @@
+/*
+   Data: 19/05/2026
+   Autores: Sofia Franzini e Vitória Kishimoto
+   Finalidade:  Ler um número inteiro.
+Exibir a soma dos números ímpares até o número lido.
+Criar uma função que retorne verdadeiro para números ímpares.
+*/
+
 #include <iostream>
 using namespace std;
 
