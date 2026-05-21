@@ -1,4 +1,10 @@
-// Online C++ compiler to run C++ program online
+/*
+   Data: 21/05/2026
+   Autores: Sofia Franzini e Vitória Kishimoto
+   Finalidade: Ler a base e o expoente; calcular a potência usando repetição;
+   Criar uma função para o cálculo.
+*/
+
 #include <iostream>
 using namespace std;
 
