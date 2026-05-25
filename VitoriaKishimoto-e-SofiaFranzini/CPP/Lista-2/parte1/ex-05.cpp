@@ -1,3 +1,10 @@
+/*
+Data: 25/05/2026
+Autores: Vitória Kishimoto e Sofia Franzini 
+Finalidade: Ler uma palavra e verificar se é palíndromo.
+➡️ Criar uma função que retorne verdadeiro ou falso.
+*/
+
 #include <iostream>
 using namespace std;
 
