@@ -1,5 +1,5 @@
 /*
-Data: 19/05/2026
+Data: 24/05/2026
 Autores: Sofia Franzini e Vitória Kishimoto
 Finalidade: Ler dois números inteiros e calcular:Adição, Subtração, Multiplicação e Divisão.
 ➡️ Criar uma função para cada operação.
