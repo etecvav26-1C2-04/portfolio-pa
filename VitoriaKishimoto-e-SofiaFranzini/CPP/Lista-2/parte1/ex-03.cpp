@@ -1,4 +1,5 @@
-/* Data: 24/05/2026
+/* 
+Data: 24/05/2026
 Autores: Vitória Kishimoto e Sofia Franzini
 Finalidade:Ler o sexo e a altura.
 Calcular o peso ideal. Criar uma função para cada caso.
