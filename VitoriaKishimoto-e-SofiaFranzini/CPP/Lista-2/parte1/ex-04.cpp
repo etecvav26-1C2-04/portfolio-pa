@@ -1,3 +1,10 @@
+/*
+Data: 19/05/2026
+Autores: Sofia Franzini e Vitória Kishimoto
+Finalidade: Ler dois números inteiros e calcular:Adição, Subtração, Multiplicação e Divisão.
+➡️ Criar uma função para cada operação.
+*/
+
 #include <iostream>
 using namespace std;
 
