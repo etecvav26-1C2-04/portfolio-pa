@@ -1,3 +1,12 @@
+/*
+Data: 28/05/2026
+Autores: Vitória Kishimoto e Sofia Franzini 
+Finalidade: Ler 15 números em um vetor.
+Contar e exibir:
+Quantidade de pares
+Quantidade de ímpares
+*/
+
 #include <iostream>
 using namespace std;
 
