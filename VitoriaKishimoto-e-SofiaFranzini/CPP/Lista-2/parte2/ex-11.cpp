@@ -1,3 +1,11 @@
+/*
+Data: 28/05/2026
+Autores: Vitória Kishimoto e Sofia Franzini 
+Finalidade: Ler 10 números em um vetor.
+Substituir números negativos por zero.
+Exibir o vetor.
+*/
+
 #include <iostream>
 using namespace std;
 
