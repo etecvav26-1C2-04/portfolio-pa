@@ -17,7 +17,7 @@ bool impar (int n) {
 int main() {
     int v[15];
 
-    // 1) Ler os 15 números
+    // aq leu os 15 números
     for (int i = 1; i < 15; i++) {
         cout << "Digite v[" << i +1<< "]: ";
         cin  >> v[i];
