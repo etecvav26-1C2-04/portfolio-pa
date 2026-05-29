@@ -22,3 +22,16 @@ int main() {
         cout << "Digite v[" << i +1<< "]: ";
         cin  >> v[i];
     }
+    
+    for (int i = 0; i < 15; i++) {
+        if (impar(v[i]))
+            qtdImpares++;
+        else
+            qtdPares++;
+    }
+
+    cout << "\nQuantidade de pares: "   << qtdPares    << endl;
+    cout << "Quantidade de ímpares: " << qtdImpares  << endl;
+
+    return 0;
+}
