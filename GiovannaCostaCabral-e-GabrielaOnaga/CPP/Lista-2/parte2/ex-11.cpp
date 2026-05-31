@@ -12,7 +12,6 @@ using namespace std;
 int main() {
     int v[10];
 
-    // aq leu os 10 números
     for (int i = 0; i < 10; i++) {
         cout << "Digite v[" << i << "]: ";
         cin  >> v[i];
