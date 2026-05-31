@@ -18,7 +18,6 @@ int main() {
     int v[15];
     int qtdPares = 0, qtdImpares = 0;
 
-    // aq leu os 15 números
     for (int i = 0; i < 15; i++) {
         cout << "Digite v[" << i +1<< "]: ";
         cin  >> v[i];
