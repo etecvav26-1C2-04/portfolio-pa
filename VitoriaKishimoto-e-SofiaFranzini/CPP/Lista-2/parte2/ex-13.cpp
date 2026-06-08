@@ -1,4 +1,4 @@
-/* Data: 31/05/2026
+/* Data: 08/06/2026
 Autores: Vitória Kishimoto e Sofia Franzini
 Finalidade: Ler 20 letras em um vetor.
 Ler uma letra e contar quantas vezes ela aparece.
