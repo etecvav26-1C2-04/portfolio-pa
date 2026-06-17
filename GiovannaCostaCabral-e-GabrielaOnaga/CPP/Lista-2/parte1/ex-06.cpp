@@ -1,34 +1,35 @@
-/* 
-Data: 05/05/2026
-Autores: Giovanna Cabral e Gabriela Onaga 
-Descrição: Ler vários números até que a soma desses números seja maior que 100. Exibir a multiplicação dos números lidos e
-parar quando a soma passar de 100; multiplicar todos os números lidos até esse ponto
-*/
+*/ 
+Data:07/05/2026
+Autores: Gabriela Onaga e Giovanna Costa
+Descrição: 
+/*
+
 
 #include <iostream>
-
 using namespace std;
 
-int main(){
+// Função que recebe um número e retorna o dia da semana
+string diaSemana(int num) {
+    switch(num) {
+        case 1: return "Domingo";
+        case 2: return "Segunda-feira";
+        case 3: return "Terca-feira";
+        case 4: return "Quarta-feira";
+        case 5: return "Quinta-feira";
+        case 6: return "Sexta-feira";
+        case 7: return "Sabado";
+        default: return "Numero invalido";
+    }
+}
 
-        int numero;
-        int soma=0;
-        long produto=1;
+int main() {
+    int numero;
 
-        while (soma <=100){
+    cout << "Digite um numero de 1 a 7: ";
+    cin >> numero;
 
-        cout << "Digite o número: ";
-        cin >> numero;
+    // Chamando a função e mostrando o resultado
+    cout << "Dia da semana: " << diaSemana(numero) << endl;
 
-
-        soma += numero;
-        produto*= numero;
-
-        }
-
-
-        cout << "Produto final: " << produto << "\n\n";
-
-
-        return 0;
+    return 0;
 }
