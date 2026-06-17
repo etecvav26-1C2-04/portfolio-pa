@@ -1,8 +1,8 @@
-*/ 
+/* 
 Data:07/05/2026
 Autores: Gabriela Onaga e Giovanna Costa
 Descrição: 
-/*
+*/
 
 
 #include <iostream>
