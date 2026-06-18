@@ -15,7 +15,7 @@ int main() {
 	
 	//letras do vetor
 	char letras[20];
-	int vogais[5, 0}; //armazena 5 posições
+	int vogais[5} = { 0}; //armazena 5 posições
 	
 	for(int i = 0; i < 20; i++){
     cout << "Digite uma letra " << i+1 << ": ";
